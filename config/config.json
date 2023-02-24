@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "current-week-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/currentWeek/CurrentWeekWebPart.js",
+          "manifest": "./src/webparts/currentWeek/CurrentWeekWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CurrentWeekWebPartStrings": "lib/webparts/currentWeek/loc/{locale}.js"
+  }
+}

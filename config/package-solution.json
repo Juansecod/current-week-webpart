@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "current-week-webpart-client-side-solution",
+    "id": "3e0a01f9-6e3e-4b47-9406-3f661e379843",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "current-week-webpart description"
+      },
+      "longDescription": {
+        "default": "current-week-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "current-week-webpart Feature",
+        "description": "The feature that activates elements of the current-week-webpart solution.",
+        "id": "13a82a87-06c0-4ccf-855e-8ddda037213b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/current-week-webpart.sppkg"
+  }
+}

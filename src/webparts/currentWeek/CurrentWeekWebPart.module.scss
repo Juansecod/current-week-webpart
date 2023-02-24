@@ -1,0 +1,25 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.currentWeek {
+  padding: 0;
+  margin: 0;
+  .container {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: rgba(60, 60, 60, 0.865);
+    padding: 15px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush2;
+  }
+}
