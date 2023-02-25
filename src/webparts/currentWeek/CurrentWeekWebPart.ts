@@ -14,7 +14,7 @@ export default class CurrentWeekWebPart extends BaseClientSideWebPart<ICurrentWe
 
   private _startDate:string = moment(strings.WPstartDate, strings.WPFormat).format(strings.WPFormat); 
   private _currentDate:string = moment().format(strings.WPFormat)
-  private _currentWeeksemester:number = moment(this._currentDate, strings.WPFormat).diff(moment(this._startDate, strings.WPFormat), 'week')
+  private _currentWeeksemester:number = moment(this._currentDate, strings.WPFormat).diff(moment(this._startDate, strings.WPFormat), 'weeks') + 1;
 
   public render(): void {
     this.domElement.innerHTML = `
